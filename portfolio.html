@@ -72,52 +72,57 @@ Deploy your new Bootstrap-powered portfolio to GitHub Pages. -->
     </nav>
     <!-- main content area -->
     <div class="container-flex">
+        <!-- below row merely ensures that content will always be centered. My WHOLE page is one big row, probably a bad implementation, but it's flexible. -->
         <div class="row justify-content-md-center m-0 p-0">
-            <div class="col-md-10 col-12 border border-secondary bg-white p-0 mt-3">
-
-                <div class="m-3">
-                    <div class="row m-0 p-0">
-                        <div class="col m-0 p-0">
-                            <div class="border-bottom border-info m-0 p-0">
-                                <h1>My Portfolio</h1>
-                            </div>
+            <!-- this column defines the actual content area and is styled and padded-->
+            <div class="col-md-10 col-12 border border-secondary bg-white p-3 mt-3 mb-5">
+                <!-- This area is the row for the header. -->
+                <div class="row m-0 p-0">
+                    <div class="col m-0 p-0">
+                        <div class="border-bottom border-info m-0 p-0">
+                            <h1>My Portfolio</h1>
                         </div>
                     </div>
-                    <div class="row m-0 p-0">
-                        <div class="col m-0 p-0">
-                            <div class="row mt-3">
-                                <div class="col col-md-6 col-12 text-center">
-                                    <div class="">
-                                        <img class="img-fluid" src="portfolio-images/hangman.png">
-                                    </div>
-                                </div>
-                                <div class="col col-md-6 col-12 text-center">
-                                    <div class="">
-                                        <img class="img-fluid" src="portfolio-images/rock-paper-scissors.png">
-                                    </div>
+                </div>
+                <!-- This row holds all the actual content -->
+                <div class="row m-0 p-0">
+                    <div class="col m-0 p-0">
+                        <!-- subrow for the first two icons -->
+                        <div class="row mt-3">
+                            <div class="col col-md-6 col-12 text-center">
+                                <img class="img-fluid" src="portfolio-images/hangman.png">
+                            </div>
+                            <div class="col col-md-6 col-12 text-center">
+                                <div class="">
+                                    <img class="img-fluid" src="portfolio-images/rock-paper-scissors.png">
                                 </div>
                             </div>
-                            <div class="row mt-3">
-                                <div class="col col-md-6 col-12 text-center">
-                                    <div class="">
-                                        <img class="img-fluid" src="portfolio-images/rpg-game.jpg">
-                                    </div>
-                                </div>
-                                <div class="col col-md-6 col-12 text-center">
-                                    <div class="">
-                                        <img class="img-fluid" src="portfolio-images/trivia.jpg">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row mt-3">
-                                <div class="col col-md-6 col-12 text-center">
-                                    <div class="">
-                                        <img class="img-fluid" src="portfolio-images/upenn-widgett.jpg">
-                                    </div>
-                                </div>
-                            </div>
-
                         </div>
+                        <!-- subrow for the second two icons -->
+                        <div class="row mt-3">
+                            <div class="col col-md-6 col-12 text-center">
+                                <div class="">
+                                    <img class="img-fluid" src="portfolio-images/rpg-game.jpg">
+                                </div>
+                            </div>
+                            <div class="col col-md-6 col-12 text-center">
+                                <div class="">
+                                    <img class="img-fluid" src="portfolio-images/trivia.jpg">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- subrow for the last icon -->
+                        <div class="row mt-3">
+                            <div class="col col-md-6 col-12 text-center px-5">
+                                <div class="card">
+                                    <img class="img-fluid" src="portfolio-images/upenn-widgett.jpg">
+                                    <div class="card-img-overlay">
+                                        <p class="card-title">UPenn Widgett</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
